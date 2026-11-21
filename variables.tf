@@ -9,3 +9,8 @@ variable "instance_type" {
   type        = string
   default     = "t3.micro"
 }
+
+variable "change_ticket" {
+  type    = string
+  default = "CHG-1101-BRANCH-POLICY"
+}
